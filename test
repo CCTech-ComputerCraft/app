@@ -1,9 +1,0 @@
-function draw()
-  opscy.redraw()
-  print("Hello")
-end
-
-while true do
-  draw()
-  coroutine.yield()
-end
